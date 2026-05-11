@@ -1,4 +1,4 @@
-# Hi, I'm Agus 👋
+# Hi, I'm Agus 
 
 I'm a **Frontend Developer** transitioning from Customer Service and Knowledge Management. During my 6 years at Evermos, I worked closely with data, documentation, and internal tools like Appsmith, Metabase, and Google Sites — that's what got me seriously into programming.
 
