@@ -34,8 +34,7 @@ YOLO11n di Raspberry Pi 4 mendeteksi botol dan menyalakan lampu lewat GPIO. Masi
 |---------|-----|-------|------|------|
 | Metabase (self-hosted) | Dashboard monitoring status pembayaran (data dummy) | Metabase, Docker Compose, PostgreSQL, VPS | [metabase.portofolio.sbs](https://metabase.portofolio.sbs) | - |
 | Appsmith (self-hosted) | Form input saran, tabel monitoring, dan chart (data dummy) | Appsmith, Docker Compose, PostgreSQL, VPS | [appsmith.portofolio.sbs](https://appsmith.portofolio.sbs) | - |
-| Prodash | Dashboard produk: CRUD, filter, sortir, grafik | React 19, TypeScript, Supabase, Recharts | [prodash.portofolio.sbs](https://prodash.portofolio.sbs) | [repo](https://github.com/agussupriadiaria/product-dashboard-react-tw) |
-| Prodash API | Versi Prodash dengan REST API eksternal (GET, POST, PUT, DELETE) | React 19, TypeScript, Fetch API, DummyJSON | [prodashapi.portofolio.sbs](https://prodashapi.portofolio.sbs) | [repo](https://github.com/agussupriadiaria/prodash-dummyjson-api-react-tw) |
+| Prodash API | Dashboard produk dengan REST API eksternal (GET, POST, PUT, DELETE), grafik, dan optimistic update | React 19, TypeScript, Fetch API, DummyJSON, Recharts | [prodashapi.portofolio.sbs](https://prodashapi.portofolio.sbs) | [repo](https://github.com/agussupriadiaria/prodash-dummyjson-api-react-tw) |
 
 Project web lain: [Taskly](https://github.com/agussupriadiaria/todo-app-react-tw2), aplikasi to-do dengan tampilan kanban, Supabase Auth, dan Row-Level Security ([demo](https://taskly.portofolio.sbs)).
 
@@ -45,7 +44,7 @@ Semua data di project ini adalah data dummy, tidak ada data pribadi.
 
 | Project | Username | Password |
 |---------|----------|----------|
-| Prodash | admin@example.com | admin123 |
+| Taskly | admin@example.com | admin123 |
 | Prodash API | emilys | emilyspass |
 
 ---
