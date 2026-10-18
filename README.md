@@ -11,7 +11,8 @@ Saya belajar IoT secara otodidak sejak 2019 dan membangun mesin ATM Sampah berba
 ## Project utama
 
 ### ATM Sampah IoT
-Mesin penukar botol bekas dengan poin, dikembangkan bersama iLitterless Indonesia. Pernah dipasang di tiga lokasi di Malang.
+
+Mesin penukar botol bekas dengan poin, dikembangkan bersama iLitterless Indonesia. Pernah dipasang di tiga lokasi di Malang: Asia Institute Malang, Vosco Coffee Malang dan Universitas Brawijaya Malang [Dokumentasi]. .
 
 - Raspberry Pi 4 menjalankan logika mesin, Arduino Nano mengatur servo dan IR sensor.
 - Barcode transaksi dienkripsi dengan AES-256-CBC + HMAC-SHA256.
@@ -22,6 +23,7 @@ Mesin penukar botol bekas dengan poin, dikembangkan bersama iLitterless Indonesi
 **Website sistem:** [pilahsampah.com](https://pilahsampah.com) (WordPress, Ultimate Member, MySQL, Cloudflare, dikelola sendiri di VPS dengan CloudPanel)
 
 ### Deteksi Botol dengan YOLO + GPIO (prototype)
+
 YOLO11n di Raspberry Pi 4 mendeteksi botol dan menyalakan lampu lewat GPIO. Masih tahap uji, belum terhubung ke mesin.
 
 **Kode:** [yolo-botol-gpio](https://github.com/agussupriadiaria/yolo-botol-gpio)
@@ -30,11 +32,11 @@ YOLO11n di Raspberry Pi 4 mendeteksi botol dan menyalakan lampu lewat GPIO. Masi
 
 ## Dashboard dan project web pendukung
 
-| Project | Isi | Stack | Demo | Kode |
-|---------|-----|-------|------|------|
-| Metabase (self-hosted) | Dashboard monitoring status pembayaran (data dummy) | Metabase, Docker Compose, PostgreSQL, VPS | [metabase.portofolio.sbs](https://metabase.portofolio.sbs) | - |
-| Appsmith (self-hosted) | Form input saran, tabel monitoring, dan chart (data dummy) | Appsmith, Docker Compose, PostgreSQL, VPS | [appsmith.portofolio.sbs](https://appsmith.portofolio.sbs) | - |
-| Prodash API | Dashboard produk dengan REST API eksternal (GET, POST, PUT, DELETE), grafik, dan optimistic update | React 19, TypeScript, Fetch API, DummyJSON, Recharts | [prodashapi.portofolio.sbs](https://prodashapi.portofolio.sbs) | [repo](https://github.com/agussupriadiaria/prodash-dummyjson-api-react-tw) |
+| Project                | Isi                                                                                                | Stack                                                | Demo                                                           | Kode                                                                       |
+| ---------------------- | -------------------------------------------------------------------------------------------------- | ---------------------------------------------------- | -------------------------------------------------------------- | -------------------------------------------------------------------------- |
+| Metabase (self-hosted) | Dashboard monitoring status pembayaran (data dummy)                                                | Metabase, Docker Compose, PostgreSQL, VPS            | [metabase.portofolio.sbs](https://metabase.portofolio.sbs)     | -                                                                          |
+| Appsmith (self-hosted) | Form input saran, tabel monitoring, dan chart (data dummy)                                         | Appsmith, Docker Compose, PostgreSQL, VPS            | [appsmith.portofolio.sbs](https://appsmith.portofolio.sbs)     | -                                                                          |
+| Prodash API            | Dashboard produk dengan REST API eksternal (GET, POST, PUT, DELETE), grafik, dan optimistic update | React 19, TypeScript, Fetch API, DummyJSON, Recharts | [prodashapi.portofolio.sbs](https://prodashapi.portofolio.sbs) | [repo](https://github.com/agussupriadiaria/prodash-dummyjson-api-react-tw) |
 
 Project web lain: [Taskly](https://github.com/agussupriadiaria/todo-app-react-tw2), aplikasi to-do dengan tampilan kanban, Supabase Auth, dan Row-Level Security ([demo](https://taskly.portofolio.sbs)).
 
@@ -42,10 +44,10 @@ Project web lain: [Taskly](https://github.com/agussupriadiaria/todo-app-react-tw
 
 Semua data di project ini adalah data dummy, tidak ada data pribadi.
 
-| Project | Username | Password |
-|---------|----------|----------|
-| Taskly | admin@example.com | admin123 |
-| Prodash API | emilys | emilyspass |
+| Project     | Username          | Password   |
+| ----------- | ----------------- | ---------- |
+| Taskly      | admin@example.com | admin123   |
+| Prodash API | emilys            | emilyspass |
 
 ---
 
