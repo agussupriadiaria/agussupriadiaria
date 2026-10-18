@@ -12,7 +12,7 @@ Saya belajar IoT secara otodidak sejak 2019 dan membangun mesin ATM Sampah berba
 
 ### ATM Sampah IoT
 
-Mesin penukar botol bekas dengan poin, dikembangkan bersama iLitterless Indonesia. Pernah dipasang di tiga lokasi di Malang: Asia Institute Malang, Vosco Coffee Malang dan Universitas Brawijaya Malang [Dokumentasi]. .
+Mesin penukar botol bekas dengan poin, dikembangkan bersama iLitterless Indonesia. Pernah dipasang di tiga lokasi di Malang: Asia Institute Malang, Vosco Coffee Malang dan Universitas Brawijaya Malang [Dokumentasi](https://drive.google.com/drive/folders/1Sxl2zpK6yHybpHCefryAovtPsp2CGSgT).
 
 - Raspberry Pi 4 menjalankan logika mesin, Arduino Nano mengatur servo dan IR sensor.
 - Barcode transaksi dienkripsi dengan AES-256-CBC + HMAC-SHA256.
