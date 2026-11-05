@@ -19,14 +19,12 @@ Mesin penukar botol bekas dengan poin, dikembangkan bersama iLitterless Indonesi
 - Website mendekripsi data, mengecek transaksi ganda, menambah poin, dan membuat voucher saat withdraw secara otomatis.
 - Di UB Greencampus (1 Sep – 12 Okt 2026): 42 hari beroperasi, 1 gangguan, 148 user terdaftar.
 
-**Kode:** [atm-sampah-iot](https://github.com/agussupriadiaria/atm-sampah-iot)
+**Kode:** [atm-sampah-iot](https://github.com/agussupriadiaria/atmsampah-v1-irsensor-2026-automation-encrypt-2)
 **Website sistem:** [pilahsampah.com](https://pilahsampah.com) (WordPress, Ultimate Member, MySQL, Cloudflare, dikelola sendiri di VPS dengan CloudPanel)
 
 ### Deteksi Botol dengan YOLO + GPIO (prototype)
 
 YOLO11n di Raspberry Pi 4 mendeteksi botol dan menyalakan lampu lewat GPIO. Masih tahap uji, belum terhubung ke mesin.
-
-**Kode:** [yolo-botol-gpio](https://github.com/agussupriadiaria/yolo-botol-gpio)
 
 ---
 
